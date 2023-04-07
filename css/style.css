@@ -1,0 +1,139 @@
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+}
+
+.__container {
+   box-sizing: content-box;
+   max-width: 1046px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+body {
+   font-family: Montserrat;
+}
+
+/* Title */
+.title {
+   margin-top: 40px;
+}
+
+.title {
+   font-size: 50px;
+}
+
+.title_green {
+   color: green;
+}
+
+/* Main */
+.main-info {
+   float: left;
+   margin-top: 100px;
+   display: flex;
+   flex-direction: column;
+}
+
+.main-info__list {
+   padding-left: 16px;
+}
+
+.main-info__list:not(:last-child) li {
+   margin-bottom: 12px;
+}
+
+/* Button */
+.main__button {
+   margin-top: 25px;
+}
+
+.button {
+   text-decoration: none;
+   color: white;
+   font-size: 16px;
+   font-weight: 600;
+
+   padding: 15px 30px;
+   border-radius: 30px;
+   background-color: green;
+   opacity: 70%;
+   transition: .4s;
+}
+
+
+.button:hover {
+   background-color: green;
+   opacity: 100%;
+}
+
+
+/* Img */
+.main_img {
+   padding-top: 50px;
+   float: right;
+   position: relative;
+   object-fit: contain;
+   height: 350px;
+}
+
+/* Order */
+.order-form__title {
+   margin-top: 120px;
+}
+
+.order-form>*:not(:last-child) {
+   margin-bottom: 15px;
+}
+
+.order-form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+/* Inputs */
+.order-form input {
+   align-items: center;
+   justify-content: center;
+   font-size: 20px;
+   padding: 5px 10px;
+}
+
+.button_bottom {
+   text-decoration: none;
+   color: white;
+   font-size: 16px;
+   font-weight: 600;
+
+   padding: 15px 30px;
+   border-radius: 10px;
+   background-color: green;
+   opacity: 70%;
+   transition: .4s;
+   border: 0px;
+   cursor: pointer;
+
+   margin-bottom: 150px;
+}
+
+.button_bottom::after {
+   font-size: 14px;
+}
+
+.button_bottom::after {
+   content: "если нажмешь сюда то ты гей";
+}
+
+.button_bottom:hover:after {
+   width: 300px;
+   content: "похуй уже гей";
+}
+
+.button_bottom:hover {
+   background-color: green;
+   opacity: 100% !important;
+}
+
